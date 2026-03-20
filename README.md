@@ -12,16 +12,3 @@ Lógica de Ordenamiento: Se implementó un Comparator<Ticket> personalizado que 
 Prioridad (Descendente): Los tickets con prioridad 5 se atienden antes que los de prioridad 1.
 
 Timestamp (Ascendente): En caso de empate en la prioridad, el sistema selecciona el ticket con el tiempo de registro más antiguo (FIFO).
-
-📋 Requisitos Funcionales
-El sistema cuenta con la clase controladora SupportCenter que incluye los siguientes métodos:
-
-addTicket(Ticket t): Registra un nuevo ticket en la cola.
-
-nextTicket(): Visualiza el siguiente ticket a atender sin removerlo.
-
-attendTicket(): Procesa y elimina el ticket con mayor prioridad de la cola.
-
-pendingCount(): Retorna el número de solicitudes en espera.
-
-isEmpty(): Verifica si existen tickets pendientes.
